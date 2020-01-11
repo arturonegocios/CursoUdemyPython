@@ -1,0 +1,47 @@
+CREAR_MODELO
+
+NODOS:
+START_NODE
+TAG X   Y   Z FIJO_? FX FY FZ RX RY RZ
+NODE_1    1   1   1   1   Y   1   1   1   1   1   1
+NODE_2    1   1   1   1   Y   1   1   1   1   1   1
+NODE_3    1   1   1   1   Y   1   1   1   1   1   1
+NODE_4    1   1   1   1   Y   1   1   1   1   1   1
+END_NODE
+
+MATERIALES:
+START_MAT
+
+#MATERIAL #1 EJEMPLO
+{
+MATERIAL_1   NOMBRE  AREA    INERCIA Z   INERCIA Y   G   J   E   DENSIDAD
+}
+END_MAT
+
+#ELEMENTOS:
+START_ELEM
+TAG TIPO NODEI NODE2 MATERIAL
+
+
+END_ELEM
+
+CARGAS 
+
+START_CARGAS
+CARGAS_NODALES
+    {
+
+    }
+CARGAS_ELEMENTOS
+    {
+
+    }
+
+
+END_CARGAS
+
+PATRONES DE CARGAS 
+    {
+        
+
+    }      
